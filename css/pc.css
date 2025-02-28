@@ -1,0 +1,432 @@
+body{
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	background: linear-gradient(
+		-45deg,
+		rgb(216, 216, 216) 25%,
+		rgb(194, 194, 194) 25%,
+		rgb(194, 194, 194) 50%,
+		rgb(216, 216, 216) 50%,
+		rgb(216, 216, 216) 75%,
+		rgb(194, 194, 194) 75%,
+		rgb(194, 194, 194) 100%
+	);
+	background-size: 4px 4px;
+}
+
+p{
+	margin-top: 8px;
+}
+
+img{
+}
+
+h1{
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	padding: 8px 0 8px 8px;
+	color: #fff;
+	border-left: 4px solid rgb(228, 0, 106);
+	background: linear-gradient(
+		-45deg,
+		rgb(66, 66, 66) 25%,
+		rgb(37, 37, 37) 25%,
+		rgb(37, 37, 37) 50%,
+		rgb(66, 66, 66) 50%,
+		rgb(66, 66, 66) 75%,
+		rgb(37, 37, 37) 75%,
+		rgb(37, 37, 37) 100%
+	);
+	background-size: 4px 4px;
+}
+
+h2{
+	position: relative;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0px;
+	padding-left: 8px;
+	border-bottom: 2px solid rgb(37, 37, 37);
+	margin-top: 16px;
+}
+
+h2:after{
+	content: '';
+	position: absolute;
+	width: 72px;
+	border-bottom: 2px solid rgb(228, 0, 106);
+	bottom: -2px;
+	left: 0;
+}
+
+h3{
+	text-align: center;
+	margin-top: 24px;
+}
+
+ol{
+	margin-top: 8px;
+	padding-left: 16px;
+}
+
+
+header,
+footer{
+	background: rgb(37, 37, 37);
+	color: #fff;
+}
+
+footer{
+	padding: 24px 0;
+	text-align: center;
+}
+
+section{
+	padding: 0 16px 32px 16px;
+}
+
+/*#region common*/
+.text-area{
+	margin-top: 16px;
+}
+
+.text-area > p:first-of-type{
+	margin-top: 0px;
+}
+
+span.marker{
+	color: rgb(228, 0, 106);
+	border-bottom: 1px solid rgb(228, 0, 106);
+}
+
+#main-content{
+	clear: both;
+	margin: 16px;
+	padding-top: 16px;
+	background: rgb(252, 252, 252);
+	width: calc(100% - 288px);
+	float: left;
+}
+
+.imp{
+	color: rgb(228, 0, 106);
+	border: 1px solid rgb(228, 0, 106);
+	padding: 0 8px;
+}
+
+.for-sp{
+	display: none;
+}
+
+.common-list{
+	margin-top: 16px;
+	overflow: hidden;
+}
+
+.common-list > dt{
+	width: 80px;
+	clear: both;
+	float: left;
+}
+
+.common-list > dt:not(:first-of-type){margin-top: 8px;}
+.common-list > dd:not(:first-of-type){margin-top: 8px;}
+
+.common-list > dd{
+	width: 100%;
+	float: left;
+	padding-left: 88px;
+	margin-left: -80px;
+}
+
+.common-list > dd img{
+	width: 160px;
+}
+
+#guide ul,
+#mail ul{
+	padding-left: 16px;
+}
+
+#guide ul > li,
+#mail ul > li{
+	position: relative;
+}
+
+#guide ul > li:before,
+#mail ul > li:before{
+	content: '';
+	position: absolute;
+	display: block;
+	top: 11px;
+	left: -9px;
+	width: 2px;
+	height: 2px;
+	background: rgb(37, 37, 37);
+	border-radius: 100%;
+}
+/*#endregion common*/
+
+/*#region menu*/
+#logo{
+	text-align: center;
+	padding: 32px 0;
+}
+
+#logo > img{
+	width: 400px;
+}
+
+#menu-status{
+	display: none;
+}
+
+menu{
+	height: 48px;
+}
+
+menu > ul{
+	width: 365px;
+	margin: auto;
+}
+
+menu > ul > li{
+	float: left;
+	line-height: 48px;
+	text-align: center;
+	background: transparent;
+}
+
+menu > ul > li > a{
+	background: transparent;
+	transition: background 0.25s ease;
+}
+
+menu > ul > li > a:hover{
+	background: rgb(228, 0, 106);
+}
+
+menu a{
+	padding: 0 16px;
+	color: #fff;
+}
+
+/*#endregion menu*/
+
+/*#region menuguide*/
+#guid-inve{
+	position: relative;
+}
+
+#guid-inve > ul{
+	z-index: 99;
+	position: absolute;
+	display: none;
+	top: 48px;
+	background: rgb(37, 37, 37);
+	color: #fff;
+	transition: height 0s ease, opacity 0.25s ease;
+}
+
+#guid-inve > ul > li{
+	width: 240px;
+}
+
+#guid-inve > ul > li > a:hover{
+	background: rgb(228, 0, 106);
+}
+
+#guid-inve:hover > ul{
+	display: block;
+}
+
+
+
+/*#endregion menuguide*/
+
+/*#region about*/
+
+#profile-image{
+	margin-top: 16px;
+	margin-right: 16px;
+	width: 240px;
+	float: left;
+}
+
+#profile-image > img{
+	width: 100%;
+}
+
+
+/*#endregion about*/
+
+/*#region voicebank*/
+
+#voicebank-category{
+	margin-top: 16px;
+}
+
+#voicebank-category > li + li{
+	margin-top: 16px;
+}
+
+.voicebank-list{
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+.voicebank-list > dt{
+	position: relative;
+	clear: left;
+	float: left;
+	width: 160px;
+	height: 80px;
+	text-align: center;
+	border-right: 2px solid rgb(204, 204, 204);
+}
+
+.voicebank-list > dt:not(:first-of-type){
+	margin-top: 8px;
+}
+
+.voicebank-list > dt > a:before{
+	content: 'Download';
+	display: block;
+	line-height: 16px;
+	padding: 0 8px;
+	position: absolute;
+	text-align: center;
+	color: rgb(228, 0, 106);
+	border: 1px solid rgb(228, 0, 106);
+	left: 50%;
+	bottom: 8px;
+	transform: translateX(-50%);
+	transition: color 0.25s ease, background 0.25s ease;
+}
+
+.voicebank-list > dt:hover > a:before{
+	color: #fff;
+	background: rgb(228, 0, 106);
+}
+
+.voicebank-list a{
+	text-decoration: none;
+	color: rgb(85, 85, 85);
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.voicebank-list > dd{
+	float: left;
+	width: 100%;
+	margin-left: -160px;
+	padding-left: 176px;
+}
+
+/*#endregion voicebank*/
+
+/*#region member*/
+
+#member-list > dd{
+	padding-left: 16px;
+	margin-top: 8px;
+}
+
+/*#endregion member*/
+
+/*#region guide*/
+#guide-list{
+	margin-top: 16px;
+}
+
+#guide-list > dt,
+#guide-list > dd
+{
+	position: relative;
+	padding-left: 16px;
+}
+
+#guide-list > dt{
+	border-bottom: 2px solid rgb(37, 37, 37);
+}
+
+#guide-list > dt:after{
+	content: '';
+	position: absolute;
+	width: 72px;
+	border-bottom: 2px solid rgb(228, 0, 106);
+	bottom: -2px;
+	left: 0;
+}
+
+#guide-list > dt:not(:first-of-type){
+	margin-top: 32px;
+}
+
+#guide-list > dt:before{
+	content: 'Q';
+	position: absolute;
+	left: 4px;
+}
+
+#guide-list > dd{
+	margin-top: 4px;
+}
+
+#guide-list > dd:before{
+	content: 'A';
+	position: absolute;
+	left: 4px;
+}
+
+
+
+/*#endregion guide*/
+
+nav{
+	width: 256px;
+	padding: 16px 16px 16px 0;
+	float: left;
+}
+
+nav section{
+	padding: 0 0 32px 0;
+}
+
+
+nav ul{
+	margin-top: 16px;
+}
+
+nav ul > li:not(:first-of-type){
+	margin-top: 8px;
+}
+
+nav ul img{
+	width: 24px;
+	margin-right: 16px;
+	vertical-align: bottom;
+}
+
+nav div img{
+	width: 100%;
+}
+
+nav dl{
+	margin-top: 16px;
+}
+
+nav dt:not(:first-of-type){
+	margin-top: 16px;
+	padding-top: 8px;
+	border-top: 1px solid rgb(66, 66, 66);
+}
+
+footer{
+	clear: both;
+}

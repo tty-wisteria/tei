@@ -1,0 +1,225 @@
+﻿@charset "utf-8";
+
+h1,h2,h3,h4,h5,h6,h7,p,table,th,td,div,ul,ol,li {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 13px;
+	line-height:18px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	color: #030133;
+}
+
+#container {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/headlogo-01.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.float-clear {
+	font-size: 0px;
+	color: #FFF;
+	clear: both;
+}
+
+
+#header {
+	height: 80px;
+	padding-left: 540px;
+	padding-top: 0px;
+}
+
+#header h1 {
+	font-size: 0%;
+	text-indent: -9999px;
+}
+
+#header p {
+	color: #030133;
+	font-weight: normal;
+	font-size: 90%;
+}
+
+#maincontent {
+	display: inline;
+	float: right;
+	width: 560px;
+	padding-right: 20px;
+}
+
+#maincontent h2 {
+	font-weight: bold;
+	font-size: 110%;
+	color: #030133;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-left-width: 7px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #030133;
+	border-left-color: #030133;
+	margin-top: 0px;
+	margin-bottom: -17px;
+}
+#maincontent h3 {
+	font-weight: normal;
+	font-size: 90%;
+	color: #000;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-left-width: 3px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #13054E;
+	border-left-color: #13054E;
+	margin-bottom: 20px;
+}
+
+
+#maincontent h6 {
+	font-size: 85%;
+	color: #030133;
+	font-weight: normal;
+	text-align: right;
+	letter-spacing: 1px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-bottom: 20px;
+}
+#maincontent ul {
+	padding-bottom: 20px;
+	padding-left: 20px;
+	list-style-type: none;
+	list-style-image: url(images/brt-maincontent.jpg);
+	font-size: 95%;
+}
+#subcontent {
+	margin-bottom: 30px;
+}
+#subcontent p {
+	font-size: 90%;
+}
+
+#subcontent .topic {
+	float: left;
+	width: 170px;
+	display: inline;
+}
+#subcontent .topic-padding {
+	float: left;
+	width: 170px;
+	display: inline;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+
+
+#navigation {
+	display: inline;
+	float: left;
+	width: 164px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 16px;
+}
+#navigation h5 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #030133;
+	font-size: 100%;
+	font-weight: bold;
+}
+#navigation h5 a {
+	color: #030133;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+#navigation h5 a:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #FFF;
+}
+
+#navigation h7 {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #030133;
+	font-size: 100%;
+	font-weight: bold;
+}
+#navigation h7 a {
+	color: #030133;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+#navigation h7 a:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #F7B99C;
+}
+
+
+#subcontent img {
+	margin-bottom: 10px;
+}
+#topicpath {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#topicpath p {
+	font-size: 85%;
+	color: #999;
+}
+
+
+#maincontent .example {
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+#maincontent .example p {
+	font-size: 90%;
+	color: #000;
+	margin-bottom: 15px;
+}
+
+
+
+#footer {
+	clear: both;
+	background-color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+#footer p {
+	color: #000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+}
+
+.word-break {
+ width:540px;
+ word-wrap:break-all;
+}
+
+.floatleft { float: left; }

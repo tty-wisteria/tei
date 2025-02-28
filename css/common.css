@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+
+}
+
+body{
+	margin: 0;
+	font-family: 'Abel', 'Meiryo', sans-serif;
+	letter-spacing: 1px;
+	color: rgb(85, 85, 85);
+}
+
+menu{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+menu a{
+	display: block;
+	text-decoration: none;
+}
+
+p{
+	margin: 0vw;
+}
+
+p.align-right{
+	text-align: right;
+}
+
+a{
+	cursor: pointer;
+	color: rgb(228, 0, 106);
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+dl,dt,dd{ margin: 0; }
+
+h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h3{
+	margin: 0px;
+}
+
+section{
+	position: relative;
+}
+
+::-webkit-scrollbar{
+	display:none;
+}
